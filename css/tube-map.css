@@ -25,6 +25,7 @@ body{
 }
 .line li{
     position: absolute;
+    text-align: center;
 }
 
 .route{
@@ -61,24 +62,6 @@ body{
     width: 7px;
     line-height: 16px;
 }
-.station.vertical strong{
-    width: 120px;
-    margin-left: -60px;
-    text-align: center;
-    margin-top: -20px;
-}
-.station.vertical strong.below{
-    margin-top: 16px;
-}
-
-strong.above{
-    text-align: center;
-    margin-left: -50%;
-    margin-top: -45px;
-    white-space: normal;
-    line-height: 16px;
-}
-
 strong{
     white-space: nowrap;
     color: #1c3f95;
@@ -86,6 +69,20 @@ strong{
     font-family: sans-serif;
     font-size: 16px;
     position: absolute;
+}
+strong.below,
+strong.above{
+    line-height: 16px;
+    text-align: center;
+    white-space: normal;
+    width: 114px;
+    margin-left: -57px;
+}
+strong.below{
+    margin-top: 16px;
+}
+strong.above{
+    margin-top: -36px;
 }
 strong.left{
     text-align: right;
@@ -100,6 +97,12 @@ strong.right{
 }
 .connection strong.right{
     left: 36px;
+}
+.connection strong.above{
+    margin-top: -42px;
+}
+.connection strong.below{
+    margin-top: 34px;
 }
 
 .rot315{
