@@ -1,13 +1,41 @@
-#bak001{
+#cen001{
 	top: 315px;
 	left: 376px;
 }
-#bak002{
+#cen002{
 	top: 347px;
 	left: 388px;
 	height: 550px;
 }
-#bak003{
-	top: 551px;
+#cen003{
+	top: 550px;
 	left: 380px;
+}
+#cen004{
+	top: 645px;
+	left: 376px;
+}
+#cen005{
+	top: 772px;
+	left: 380px;
+}
+#cen006{
+	top: 924px;
+	left: 405px;
+}
+#cen007{
+	top: 1030px;
+	left: 502px;
+}
+#cen008{
+	top: 1122px;
+	left: 589px;
+}
+#cen009{
+	top: 1351px;
+	left: 539px;
+}
+#cen010{
+	top: 1368px;
+	left: 757px;
 }

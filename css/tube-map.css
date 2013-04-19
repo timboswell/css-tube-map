@@ -7,7 +7,7 @@ body{
     display: block;
     height: 2735px;
     position: relative;
-    border: 2px solid blue;
+    border: 2px solid #40c7f5;
     border-width: 2px 1px 2px 2px;
     margin: 100px;
 }
@@ -17,13 +17,12 @@ body{
     left: 0;
 }
 #grid li{
-    height: 455px;
-    width: 455px;
     float: left;
-    border: 1px solid blue;
+    border: 1px solid #40c7f5;
     border-width: 0 1px 1px 0;
+    width: 455px;
+    height: 455px;
 }
-
 .line li{
     position: absolute;
 }
@@ -39,7 +38,7 @@ body{
     width: 26px;
     display: block;
     background: #fff;
-    border: 1px solid blue;
+    border: 1px solid #1c3f95;
     border-radius: 50px;
     z-index: 50;
 }
@@ -57,33 +56,60 @@ body{
     display: block;
     line-height: 7px;
 }
+.station.vertical{
+    height: 8px;
+    width: 7px;
+    line-height: 16px;
+}
+
+
+
 strong{
     white-space: nowrap;
-    color: blue;
+    color: #1c3f95;
     font-weight: bold;
     font-family: sans-serif;
+    font-size: 16px;
+    position: absolute;
 }
 strong.left{
     text-align: right;
-    float: right;
-    margin-right: 16px;
+    right: 16px;
 }
 strong.right{
     text-align: left;
-    float: left;
-    margin-left: 16px;
+    left: 16px;
 }
 .connection strong.left{
-    margin-right: 36px;
+    right: 36px;
 }
 .connection strong.right{
-    margin-left: 36px;
+    left: 36px;
 }
 
+.rot315{
+    -webkit-transform:rotate(315deg);
+}
+.rot315 strong{
+    -webkit-transform:rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+}
+.rot315 strong.left{
+    right: 20px;
+}
+.rot315 strong.right{
+    left: 20px;
+}
+.rot315.connection strong.left{
+    right: 46px;
+}
+.rot315.connection strong.right{
+    left: 46px;
+}
 
-#bakerloo .route,
-#bakerloo .station{
-    background-color: red; 
+#central .route,
+#central .station{
+    background-color: #ee2e24; 
     z-index: 10;
 }
 
