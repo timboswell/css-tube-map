@@ -48,7 +48,7 @@ body{
     display: block;
     background: #fff;
     border: 6px solid #000;
-    line-height: 26px;
+    line-height: 22px;
 }
 .station{
     height: 7px;
@@ -61,8 +61,23 @@ body{
     width: 7px;
     line-height: 16px;
 }
+.station.vertical strong{
+    width: 120px;
+    margin-left: -60px;
+    text-align: center;
+    margin-top: -20px;
+}
+.station.vertical strong.below{
+    margin-top: 16px;
+}
 
-
+strong.above{
+    text-align: center;
+    margin-left: -50%;
+    margin-top: -45px;
+    white-space: normal;
+    line-height: 16px;
+}
 
 strong{
     white-space: nowrap;
