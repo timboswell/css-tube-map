@@ -1,0 +1,156 @@
+body{
+    background: white;
+}
+#map-container{
+    width: 4104px;
+    overflow: hidden;
+    display: block;
+    height: 2735px;
+    position: relative;
+    border: 2px solid blue;
+    border-width: 2px 1px 2px 2px;
+    margin: 100px;
+}
+#grid{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#grid li{
+    height: 455px;
+    width: 455px;
+    float: left;
+    border: 1px solid blue;
+    border-width: 0 1px 1px 0;
+}
+
+.line li{
+    position: absolute;
+}
+
+.route{
+    width: 9px;
+    height: 9px;
+    display: block;
+}
+
+.roundel{
+    height: 26px;
+    width: 26px;
+    display: block;
+    background: #fff;
+    border: 1px solid blue;
+    border-radius: 50px;
+    z-index: 50;
+}
+.connection{
+    height: 22px;
+    width: 22px;
+    display: block;
+    background: #fff;
+    border: 6px solid #000;
+    line-height: 26px;
+}
+.station{
+    height: 7px;
+    width: 8px;
+    display: block;
+    line-height: 7px;
+}
+strong{
+    white-space: nowrap;
+    color: blue;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+strong.left{
+    text-align: right;
+    float: right;
+    margin-right: 16px;
+}
+strong.right{
+    text-align: left;
+    float: left;
+    margin-left: 16px;
+}
+.connection strong.left{
+    margin-right: 36px;
+}
+.connection strong.right{
+    margin-left: 36px;
+}
+
+
+#bakerloo .route,
+#bakerloo .station{
+    background-color: red; 
+    z-index: 10;
+}
+
+
+
+
+/*ul{
+    display: block;
+    overflow: hidden;
+}
+.central em{
+    background: red;
+}
+.piccadilly em{
+    background: blue;
+}
+li{
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+em{
+    display: block;
+    position: relative;
+}
+em.d90{
+    width: 25px;
+    height: 25px;
+}
+em.up.right.d90{
+    border-radius: 0 0 25px 0;
+}
+em.up.left.d90{
+    border-radius: 0 0 0 25px;
+}
+em.down.left.d90{
+    border-radius: 25px 0 0 0;
+}
+em.down.right.d90{
+    border-radius: 0 25px 0 0;
+}
+em:before{
+    content: '';
+    position: absolute;
+    display: block;
+    background: white;
+    height: 20px;
+    width: 20px;
+    top: 0;
+}
+em.up.right.d90:before{
+   border-radius: 0 0 20px 0;
+    left: 0;
+}
+em.up.left.d90:before{
+   border-radius: 0 0 0 20px;
+    right: 0;
+}
+em.down.right.d90:before{
+   border-radius: 0 20px 0 0;
+    left: 0;
+    top: auto;
+    bottom: 0;
+}
+em.down.left.d90:before{
+   border-radius: 20px 0 0 0;
+    right: 0;
+    top: auto;
+    bottom: 0;
+}*/
