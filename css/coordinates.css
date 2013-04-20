@@ -24,11 +24,11 @@
 	left: 405px;
 }
 #cen007{
-	top: 1030px;
+	top: 1034px;
 	left: 502px;
 }
 #cen008{
-	top: 1122px;
+	top: 1121px;
 	left: 589px;
 }
 #cen009{
@@ -68,7 +68,7 @@
 	left: 1495px;
 }
 #cen018{
-	top: 1345px;
+	top: 1351px;
 	left: 1574px;
 }
 #cen019{
@@ -92,7 +92,7 @@
 	left: 2145px;
 }
 #cen024{
-	top: 1345px;
+	top: 1351px;
 	left: 2282px;
 }
 #cen025{
@@ -199,4 +199,16 @@
 #cen050{
 	top: 628px;
 	left: 3518px;
+}
+#cen051{
+	top: 1359px;
+	left: 568px;
+	width: 1731px;
+}
+#cen052{
+	top: 920px;
+	left: 406px;
+	width: 621px;
+	-webkit-transform:rotate(45deg);
+	-webkit-transform-origin: 0% 0%;
 }
