@@ -43,11 +43,20 @@ body{
     position: absolute;
     text-align: center;
 }
-
 .route{
     width: 9px;
     height: 9px;
     display
+}
+#central .route,
+#central .station{
+    background-color: #ee2e24; 
+    z-index: 10;
+}
+#piccadilly .route,
+#piccadilly .station{
+    background-color: #1c3f95; 
+    z-index: 10;
 }
 .diagonal{
     -webkit-transform:rotate(45deg);
@@ -126,6 +135,9 @@ strong.right{
 .connection strong.below{
     margin-top: 34px;
 }
+.disabled strong.below{
+    margin-top: 36px;
+}
 
 
 .rot90{
@@ -157,13 +169,6 @@ strong.right{
 .rot315.connection strong.right{
     left: 46px;
 }
-
-#central .route,
-#central .station{
-    background-color: #ee2e24; 
-    z-index: 10;
-}
-
 .bend45deg{
     height: 23px;
     width: 29px;
