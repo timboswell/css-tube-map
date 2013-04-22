@@ -129,9 +129,12 @@ strong.left{
 .station strong.right{
     top: -8px;
 }
+.station strong.two-lines{
+    top: -17px;
+}
 .roundel strong.left{
-    right: 40px;
-    top: 3px;
+    right: 33px;
+    top: 1px;
 }
 .roundel strong.right{
     top: 3px;
@@ -145,16 +148,9 @@ strong.left{
     top: -37px;
     right: 31px;
 }
-.roundel strong.two-lines,
-.roundel strong.two-lines{
-    line-height: 20px;
-}
 strong.right{
     text-align: left;
     left: 40px;
-}
-.connection strong.left{
-    right: 36px;
 }
 .connection strong.right{
     left: 36px;
@@ -188,8 +184,8 @@ strong.right{
    -webkit-transform: rotate(315deg);
 }
 .rot45 strong.below.right{
-    left: 53px;
-    top: -89px;
+    left: 41px;
+    top: -134px;
     -webkit-transform-origin: 100% 100%;
    -webkit-transform: rotate(315deg);
 }
@@ -215,7 +211,7 @@ strong.right{
 }
 .rot315 strong.right{
     top: -7px;
-    left: 25px;
+    left: 21px;
     -webkit-transform-origin: 0% 0%;
 }
 .rot315.connection strong.left{
