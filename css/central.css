@@ -88,9 +88,18 @@
 	top: 1345px;
 	left: 2042px;
 }
+#cen022 strong{
+	text-align: right;
+	top: -10px;
+	left: -62px;
+}
 #cen023{
 	top: 1345px;
 	left: 2145px;
+}
+#cen023 strong{
+	left: 68px;
+	top: -7px;
 }
 #cen024{
 	top: 1351px;

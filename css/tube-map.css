@@ -28,6 +28,10 @@ body{
     top: 0;
     left: 0;
     z-index: -1;
+
+    background-image: url('../standard-tube-map.jpg');
+    background-position: -125px -375px;
+    opacity: 0.1;
 }
 #grid li{
     float: left;
@@ -95,29 +99,55 @@ body{
 strong{
     white-space: nowrap;
     color: #1c3f95;
-    font-size: 16px;
+    font-size: 22px;
     position: absolute;
+    line-height: 20px;
 }
 strong.below,
 strong.above{
-    line-height: 18px;
+    line-height: 20px;
     text-align: center;
     white-space: normal;
-    width: 114px;
-    margin-left: -57px;
+    width: 118px;
+    margin-left: -61px;
+}
+strong.wide{
+    white-space: nowrap;
+    width: auto;
 }
 strong.below{
-    margin-top: 16px;
+    top: 12px;
 }
 strong.above{
-    margin-top: -42px;
+    top: -47px;
 }
 strong.left{
     text-align: right;
-    right: 16px;
+    right: 14px;
+}
+.station strong.left,
+.station strong.right{
+    top: -8px;
 }
 .roundel strong.left{
     right: 40px;
+    top: 3px;
+}
+.roundel strong.right{
+    top: 3px;
+    left: 36px;
+}
+.roundel strong.right.above{
+    top: -19px;
+    left: 88px;
+}
+.roundel strong.left.above{
+    top: -37px;
+    right: 31px;
+}
+.roundel strong.two-lines,
+.roundel strong.two-lines{
+    line-height: 20px;
 }
 strong.right{
     text-align: left;
@@ -130,7 +160,7 @@ strong.right{
     left: 36px;
 }
 .connection strong.above{
-    margin-top: -48px;
+    top: -49px;
 }
 .connection strong.below{
     margin-top: 34px;
@@ -138,8 +168,31 @@ strong.right{
 .disabled strong.below{
     margin-top: 36px;
 }
+.disabled strong.below.right{
+    top: -8px;
+    left: 94px;
+}
 
-
+.rot45{
+    -webkit-transform:rotate(45deg);
+}
+.rot45 strong.above{
+    -webkit-transform-origin: 0% 0%;
+    -webkit-transform: rotate(315deg);
+    margin-top: -32px;
+}
+.rot45 strong.left{
+    right: 7px;
+    top: -13px;
+    -webkit-transform-origin: 100% 100%;
+   -webkit-transform: rotate(315deg);
+}
+.rot45 strong.below.right{
+    left: 53px;
+    top: -89px;
+    -webkit-transform-origin: 100% 100%;
+   -webkit-transform: rotate(315deg);
+}
 .rot90{
     -webkit-transform:rotate(90deg);
 }
@@ -156,11 +209,13 @@ strong.right{
     -webkit-transform:rotate(45deg);
 }
 .rot315 strong.left{
-    right: 20px;
+    top: -7px;
+    right: 25px;
     -webkit-transform-origin: 100% 100%;
 }
 .rot315 strong.right{
-    left: 20px;
+    top: -7px;
+    left: 25px;
     -webkit-transform-origin: 0% 0%;
 }
 .rot315.connection strong.left{
