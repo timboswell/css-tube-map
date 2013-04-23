@@ -151,20 +151,17 @@ strong.right{
     text-align: left;
     left: 40px;
 }
-.connection strong.right{
+.roundel strong.right{
     left: 36px;
 }
-.connection strong.above{
+.roundel strong.above{
     top: -49px;
 }
-.connection strong.below{
-    margin-top: 34px;
+.roundel strong.below{
+   top: 37px;
 }
-.disabled strong.below{
-    margin-top: 36px;
-}
-.disabled strong.below.right{
-    top: -8px;
+.roundel strong.below.right{
+    top: 8px;
     left: 94px;
 }
 
@@ -221,7 +218,7 @@ strong.right{
 }
 .bend45deg{
     height: 23px;
-    width: 29px;
+    width: 31px;
     border-radius: 0 23px 0 0;
     z-index: 9 !important;
 }
