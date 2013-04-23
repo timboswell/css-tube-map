@@ -257,3 +257,22 @@ strong.right{
     border-radius: 95px;
     z-index: 11;
 }
+.chevron{
+    height: 20px;
+    width: 5px;
+    background-color: #fff !important;
+    display: block;
+}
+.chevron:before{
+    position: absolute;
+    content: '';
+    top: 0px;
+    left: 0px;
+    height: 20px;
+    width: 5px;
+    margin-left: -5px;
+    background-color: #fff;
+    display: block;
+    -webkit-transform-origin: 100% 100%;
+    -webkit-transform:rotate(90deg);
+}
