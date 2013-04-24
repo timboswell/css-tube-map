@@ -2,9 +2,17 @@
 	left: 42px;
 	top: 131px;
 }
+#met001 strong{
+	top: 33px;
+	left: 50px;
+}
 #met002{
 	left: 136px;
 	top: 77px;
+}
+#met002 strong{
+	top: -38px;
+	right: 34px;
 }
 #met003{
 	left: 299px;
@@ -14,9 +22,17 @@
 	left: 459px;
 	top: 164px;
 }
+#met004 strong{
+	left: -75px;
+	top: 28px;
+}
 #met005{
 	left: 518px;
 	top: 236px
+}
+#met005 strong{
+	right: 19px;
+	top: 11px;
 }
 #met006{
 	left: 553px;
@@ -38,6 +54,10 @@
 	left: 672px;
 	top: 362px;
 }
+#met010 strong{
+	top: -25px;
+	left: 37px;
+}
 #met011{
 	left: 717px;
 	top: 421px
@@ -54,6 +74,10 @@
 	left: 884px;
 	top: 544px;
 }
+#met014 strong{
+	top: -46px;
+	left: 15px;
+}
 #met015{
 	left: 1051px;
 	top: 548px;
@@ -66,13 +90,25 @@
 	left: 1270px;
 	top: 620px;
 }
+#met017 strong{
+	top: 32px;
+	right: 31px;
+}
 #met018{
 	left: 1551px;
 	top: 902px;
 }
+#met018 strong{
+	top: -46px;
+	left: 108px;
+}
 #met019{
 	left: 1755px;
 	top: 1107px;
+}
+#met019 strong{
+	left: 41px;
+	top: -51px;
 }
 #met020{
 	left: 2133px;
@@ -81,6 +117,10 @@
 #met021{
 	left: 2419px;
 	top: 1251px;
+}
+#met021 strong{
+	right: -8px;
+	top: -14px;
 }
 #met022{
 	left: 2748px;
