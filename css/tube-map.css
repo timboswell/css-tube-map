@@ -65,6 +65,10 @@ body{
 #metropolitan .station{
     background-color: #98005d;
 }
+#district .route,
+#district .station{
+    background-color: #00853e;
+}
 .diagonal{
     -webkit-transform:rotate(45deg);
     -webkit-transform-origin: 0% 0%;
