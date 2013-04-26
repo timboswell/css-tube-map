@@ -51,29 +51,10 @@ body{
     width: 10px;
     height: 10px;
 }
-#central .route,
-#central .station{
-    background-color: #ee2e24; 
-    z-index: 10;
-}
-#piccadilly .route,
-#piccadilly .station{
-    background-color: #1c3f95; 
-    z-index: 10;
-}
-#metropolitan .route,
-#metropolitan .station{
-    background-color: #98005d;
-}
-#district .route,
-#district .station{
-    background-color: #00853e;
-}
 .diagonal{
     -webkit-transform:rotate(45deg);
     -webkit-transform-origin: 0% 0%;
 }
-
 .roundel{
     height: 30px;
     width: 30px;

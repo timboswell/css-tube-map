@@ -1,3 +1,7 @@
+#metropolitan .route,
+#metropolitan .station{
+    background-color: #98005d;
+}
 #met001{
 	left: 42px;
 	top: 131px;

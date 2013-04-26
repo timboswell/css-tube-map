@@ -1,3 +1,8 @@
+#central .route,
+#central .station{
+    background-color: #ee2e24; 
+    z-index: 10;
+}
 #cen001{
 	top: 315px;
 	left: 376px;

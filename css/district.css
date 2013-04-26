@@ -1,3 +1,7 @@
+#district .route,
+#district .station{
+    background-color: #00853e;
+}
 #dis001{
 	top: 1705px;
 	left: 703px;
@@ -68,9 +72,16 @@
 	top: 1248px;
 	left: 1395px;
 }
+#dis016 strong{	
+	left: 27px;
+}
 #dis017{
 	top: 1473px;
 	left: 1395px;
+}
+#dis017 strong{
+	left: 25px;
+	top: -15px;
 }
 #dis018{
 	top: 1684px;
