@@ -109,6 +109,7 @@ strong{
     font-size: 22px;
     position: absolute;
     line-height: 20px;
+    z-index: 30;
 }
 strong.below,
 strong.above{
