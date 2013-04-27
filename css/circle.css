@@ -1,31 +1,31 @@
 #circle .route,
 #circle .station{
-    background-color: blue; 
+    background-color: #ffd204; 
     z-index: 10;
 }
 #cir001{
 	top: 1248px;
-	left: 1408px;
+	left: 1405px;
 }
 #cir002{
 	top: 1473px;
-	left: 1408px;
+	left: 1405px;
 }
 #cir003{
-	top: 1677px;
+	top: 1678px;
 	left: 1464px;
 }
 #cir004{
-	top: 1677px;
+	top: 1678px;
 	left: 1833px;
 }
 #cir005{
-	top: 1677px;
+	top: 1678px;
 	left: 2188px;
 }
 #cir006{
-	top: 1590px;
-	left: 2369px;
+	top: 1591px;
+	left: 2370px;
 }
 #cir007{
 	top: 1431px;
@@ -58,7 +58,7 @@
 	left: 2134px;
 }
 #cir014{
-	top: 1110px;
+	top: 111px;
 	left: 1902px;
 }
 #cir015{
@@ -70,20 +70,20 @@
 	left: 1349px;
 }
 #cir017{
-	top: 1137px;
-	left: 1236px;
+	top: 1138px;
+	left: 1238px;
 }
 #cir018{
-	top: 1177px;
-	left: 1197px;
+	top: 1178px;
+	left: 1199px;
 }
 #cir019{
 	top: 1216px;
-	left: 1187px;
+	left: 1185px;
 }
 #cir020{
 	top: 1256px;
-	left: 1147px;
+	left: 1145px;
 }
 #cir021{
 	top: 1395px;
@@ -102,7 +102,122 @@
 	left: 1106px;
 	z-index: 9 !important;
 }
+#cir025{
+	top: 1146px;
+	left: 1425px;
+	width: 100px;
 }
+#cir026{
+	top: 1146px;
+	left: 1395px;
+}
+#cir027{
+	top: 1176px;
+	left: 1395px;
+	height: 491px;
+}
+#cir028{
+	top: 1665px;
+	left: 1395px;
+}
+#cir029{
+	top: 1686px;
+	left: 1426px;
+	width: 856px;
+}
+#cir030{
+	top: 1673px;
+	left: 2274px;
+}
+#cir031{
+	top: 1603px;
+	left: 2256px;
+	width: 233px;
+}
+#cir032{
+	top: 1514px;
+	left: 2446px;
+	z-index: -2 !important;
+}
+#cir033{
+	top: 1514px;
+	left: 2477px;
+	width: 269px;
+}
+#cir034{
+	top: 1493px;
+	left: 2745px;
+}
+#cir035{
+	top: 1306px;
+	left: 2766px;
+	height: 187px;
+}
+#cir036{
+	top: 1271px;
+	left: 2738px;
+	z-index: -1 !important;
+	width: 38px;
+	height: 38px;
+	border-radius: 0 100% 0 0;
+}
+#cir037{
+	top: 1271px;
+	left: 2508px;
+	width: 230px;
+}
+#cir038{
+	top: 1257px;
+	left: 2455px;
+}
+#cir039{
+	top: 1193px;
+	left: 2293px;
+	width: 201px;
+}
+#cir040{
+	top: 1119px;
+	left: 2304px;
+	z-index: -1 !important;
+}
+#cir041{
+	top: 1119px;
+	left: 1280px;
+	width: 1024px;
+}
+#cir042{
+	top: 1119px;
+	left: 1256px;
+}
+#cir043{
+	top: 1193px;
+	left: 1103px;
+	width: 190px;
+}
+#cir044{
+	top: 1257px;
+	left: 1118px;
+}
+#cir045{
+	top: 1283px;
+	left: 1122px;
+	height: 359px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

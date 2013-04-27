@@ -354,7 +354,8 @@
 #dis065{
 	top: 1696px;
 	left: 2290px;
-	width: 235px;
+	width: 237px;
+	z-index: 11 !important;
 }
 #dis066{
 	top: 1524px;

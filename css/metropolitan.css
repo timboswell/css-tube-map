@@ -235,7 +235,8 @@
 #met043{
 	top: 1280px;
 	left: 2480px;
-	width: 256px;
+	width: 258px;
+	z-index: 11 !important;
 }
 #met044{
 	top: 1280px;
