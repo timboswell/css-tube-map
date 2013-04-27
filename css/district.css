@@ -64,6 +64,9 @@
 	top: 1130px;
 	left: 1516px
 }
+#dis014 strong{
+	top: 32px;
+}
 #dis015{
 	top: 1143px;
 	left: 1391px;
@@ -95,7 +98,7 @@
 #dis020{
 	top: 1684px;
 	left: 1511px;
-	z-index: 1 !important;
+	z-index: 11 !important;
 }
 #dis021{
 	top: 1706px;
@@ -416,10 +419,14 @@
 	top: 1675px;
 	left: 1364px;
 }
+#dis078:after{
+	background: -webkit-linear-gradient(left, #ffffff 28%,#1c3f95 13%,#1c3f95 52%,#ffffff 42%);
+}
 #dis079{
 	top: 1178px;
 	left: 1385px;
 	height: 501px;
+	z-index: 9 !important;
 }
 #dis080{
 	top: 1147px;

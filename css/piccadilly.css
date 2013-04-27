@@ -54,6 +54,10 @@
 	top: 803px;
 	left: 616px;
 }
+#pic010 strong{
+	right: 37px;
+	top: 3px;
+}
 #pic011{
 	top: 907px;
 	left: 620px;
@@ -312,6 +316,7 @@
 	top: 1667px;
 	left: 615px;
 	width: 910px;
+	z-index: 9 !important;
 }
 #pic062{
 	top: 1654px;
@@ -357,6 +362,7 @@
 	top: 877px;
 	left: 2082px;
 	width: 779px;
+	z-index: -1 !important;
 }
 #pic072{
 	top: 592px;
