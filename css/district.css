@@ -1,6 +1,7 @@
 #district .route,
 #district .station{
     background-color: #00853e;
+    z-index: 10;
 }
 #dis001{
 	top: 1705px;
@@ -350,10 +351,6 @@
 	top: 1683px;
 	left: 2277px;
 }
-#dis064{
-	top: 1683px;
-	left: 2277px;
-}
 #dis065{
 	top: 1696px;
 	left: 2290px;
@@ -364,6 +361,9 @@
 	top: 1524px;
 	left: 2448px;
 	z-index: -1 !important;
+}
+#dis066:after{
+	background: -webkit-linear-gradient(right, #ffffff 20%,#85cebc 13%,#85cebc 37%,#ffffff 33%);
 }
 #dis067{
 	top: 1524px;
