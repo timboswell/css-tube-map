@@ -24,6 +24,10 @@
 	left: 2173px;
 	width: 26px;
 }
+#nor005 strong{
+	top: -1px;
+	right: 37px;
+}
 #nor006{
 	top: 363px;
 	left: 2245px;
@@ -52,6 +56,10 @@
 	top: 289px;
 	left: 1579px;
 }
+#nor011 strong{
+	top: 29px;
+	right: 24px;
+}
 #nor012{
 	top: 383px;
 	left: 1660px;
@@ -64,6 +72,10 @@
 	top: 458px;
 	left: 1750px;
 }
+#nor014 strong{
+	top: 31px;
+	right: 31px;
+}
 #nor015{
 	top: 535px;
 	left: 1812px;
@@ -71,6 +83,10 @@
 #nor016{
 	top: 562px;
 	left: 1851px;
+}
+#nor016 strong{
+	top: 29px;
+	right: 24px;
 }
 #nor017{
 	top: 636px;
@@ -92,6 +108,9 @@
 	top: 949px;
 	left: 2101px;
 }
+#nor021 strong{
+	top: -17px;
+}
 #nor022{
 	top: 1048px;
 	left: 2096px;
@@ -99,6 +118,9 @@
 #nor023{
 	top: 1303px;
 	left: 2046px;
+}
+#nor023 strong{
+	top: -19px;
 }
 #nor024{
 	top: 1792px;
@@ -124,9 +146,17 @@
 	top: 1973px;
 	left: 2275px;
 }
+#nor029 strong{
+	left: 53px;
+	top: -114px;
+}
 #nor030{
 	top: 2201px;
 	left: 2047px;
+}
+#nor030 strong{
+	left: 52px;
+	top: -108px;
 }
 #nor031{
 	top: 2220px;
@@ -148,21 +178,41 @@
 	top: 2468px;
 	left: 1742px;
 }
+#nor035 strong{
+	top: -40px;
+	right: 26px;
+}
 #nor036{
 	top: 2517px;
 	left: 1730px;
+}
+#nor036 strong{
+	left: 52px;
+	top: -88px;
 }
 #nor037{
 	top: 2561px;
 	left: 1687px;
 }
+#nor037 strong{
+	top: -128px;
+	left: 34px;
+}
 #nor038{
 	top: 2606px;
 	left: 1642px;
 }
+#nor038 strong{
+	left: 41px;
+	top: -103px;
+}
 #nor039{
 	top: 2653px;
 	left: 1595px;
+}
+#nor039 strong{
+	left: 36px;
+	top: -132px;
 }
 #nor040{
 	top: 2682px;

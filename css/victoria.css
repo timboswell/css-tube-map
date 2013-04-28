@@ -59,6 +59,10 @@
 	top: 2076px;
 	left: 1782px;
 }
+#vic011 strong{
+	top: 23px;
+	right: 29px;
+}
 #vic012{
 	top: 2253px;
 	left: 1958px;
@@ -127,7 +131,7 @@
 	z-index: -1 !important;
 }
 #vic025{
-	top: 1448px;
+	top: 1449px;
 	left: 1755px;
 }
 #vic026{
