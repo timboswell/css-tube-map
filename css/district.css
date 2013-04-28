@@ -116,6 +116,7 @@
 #dis023{
 	top: 1688px;
 	left: 1833px;
+	z-index: 11 !important;
 }
 #dis023 strong{
 	top: -57px;
@@ -135,6 +136,7 @@
 #dis026{
 	top: 1688px;
 	left: 2188px;
+	z-index: 11 !important;
 }
 #dis026 strong{
 	top: -36px;
