@@ -149,6 +149,7 @@
 	top: 1178px;
 	left: 1610px;
 	width: 282px;
+	z-index: -1 !important;
 }
 #bak031{
 	top: 1286px;
@@ -162,6 +163,7 @@
 #bak033{
 	top: 1392px;
 	left: 1852px;
+	z-index: -2 !important;
 }
 #bak034{
 	top: 1514px;
@@ -171,11 +173,13 @@
 #bak035{
 	top: 1627px;
 	left: 2071px;
+	z-index: -3 !important;
 }
 #bak036{
 	top: 1643px;
 	left: 2086px;
 	height: 386px;
+	z-index: -1 !important;
 }
 #bak037{
 	top: 2028px;

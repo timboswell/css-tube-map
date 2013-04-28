@@ -142,6 +142,10 @@
 	top: 1698px;
 	left: 2482px;
 }
+#nor028 strong{
+	top: 12px;
+	left: 93px;
+}
 #nor029{
 	top: 1973px;
 	left: 2275px;
@@ -321,6 +325,7 @@
 	top: 1139px;
 	left: 2054px;
 	height: 1047px;
+	z-index: -3 !important;
 }
 #nor058{
 	top: 1064px;

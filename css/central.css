@@ -233,6 +233,7 @@
 	top: 1358px;
 	left: 568px;
 	width: 1740px;
+	z-index: -1 !important;
 }
 #cen052{
 	top: 913px;

@@ -217,6 +217,7 @@
 	top: 1129px;
 	left: 1800px;
 	width: 505px;
+	z-index: 1 !important
 }
 #met040{
 	top: 1129px;
