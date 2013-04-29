@@ -247,6 +247,7 @@
 #cen054{
 	top: 1345px;
 	left: 827px;
+	z-index: -1 !important;
 }
 #cen055{
 	top: 1363px;

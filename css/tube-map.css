@@ -212,6 +212,10 @@ strong.right{
     border-radius: 0 23px 0 0;
     z-index: 9 !important;
 }
+#overground .bend45deg{
+    border-width: 3px 3px 0 0 !important;
+    z-index: -1 !important;
+}
 .bend45deg:after{
     height: 60px;
     width: 60px;
@@ -222,6 +226,15 @@ strong.right{
     left: -29px;
     border-radius: 95px;
     z-index: 11;
+}
+#overground .bend45deg:after{
+    top: 4px;
+    left: 4px;
+    width: 30px;
+    height: 30px;
+    border-radius: 0 30px 0 0;
+    border: 3px solid #f58026;
+    border-width: 3px 0 0 0;
 }
 .bend45deg.flipped{
     border-radius: 0 0 23px 0;
@@ -246,6 +259,19 @@ strong.right{
     left: -19px;
     border-radius: 95px;
     z-index: 11;
+}
+#overground .bend90deg{
+    border: 3px solid #f58026 !important;
+    border-width: 3px 3px 0 0 !important;
+}
+#overground .bend90deg:after{
+    border: 3px solid #f58026;
+    top: 4px;
+    left: 0px;
+    width: 21px;
+    height: 21px;
+    border-radius: 0 40px 0 0;
+    border-width: 3px 3px 0 0 !important;
 }
 .chevron{
     height: 20px;

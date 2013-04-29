@@ -1,4 +1,12 @@
-#overground .route,
+#overground .route{
+	background-color: #fff;
+	box-sizing: border-box;
+	border: 3px solid #f58026;
+	border-width: 0 3px;
+}
+#overground .route.hor{
+	border-width: 3px 0;
+}
 #overground .station{
     background-color: #f58026;
     z-index: 10;
@@ -29,18 +37,18 @@
 }
 #ove007{
 	top: 465px;
-	left: 1136px;
+	left: 1135px;
 }
 #ove008{
 	top: 886px;
-	left: 1136px;
+	left: 1135px;
 }
 #ove009{
-	top: 971px;
+	top: 972px;
 	left: 1359px;
 }
 #ove010{
-	top: 971px;
+	top: 972px;
 	left: 1500px;
 }
 #ove011{
@@ -295,13 +303,89 @@
 	top: 989px;
 	left: 3670px;
 }
-
-
-
-
-
-
-
+#ove072{
+	top: 54px;
+	left: 1125px;
+	height: 910px;
+}
+#ove073{
+	top: 959px;
+	left: 1125px;
+}
+#ove074{
+	top: 980px;
+	left: 1156px;
+	width: 819px;
+}
+#ove075{
+	top: 980px;
+	left: 1970px;
+}
+#ove076{
+	top: 1019px;
+	left: 1974px;
+	width: 100px;
+}
+#ove077{
+	top: 1726px;
+	left: 759px;
+	height: 270px;
+}
+#ove078{
+	top: 1703px;
+	left: 755px;
+}
+#ove079{
+	top: 1655px;
+	left: 748px;
+	width: 140px;
+}
+#ove080{
+	top: 1594px;
+	left: 850px;
+}
+#ove081{
+	top: 1054px;
+	left: 867px;
+	height: 540px;
+}
+#ove082{
+	top: 941px;
+	left: 837px;
+	width: 268px;
+}
+#ove083{
+	top: 1034px;
+	left: 863px;
+}
+#ove084{
+	top: 840px;
+	left: 1059px;
+}
+#ove085{
+	top: 842px;
+	left: 1075px;
+	width: 692px;
+}
+#ove086{
+	top: 831px;
+	left: 1752px;
+	-webkit-transform: rotate(135deg);
+}
+#ove087{
+	top: 761px;
+	left: 1749px;
+	width: 208px;
+}
+#ove088{
+	top: 678px;
+	left: 1923px;
+}
+#ove089{
+	top: 680px;
+	left: 1939px;
+	width: 228px;
+}
 
 
 

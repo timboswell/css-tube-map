@@ -126,6 +126,7 @@
 #bak025{
 	top: 967px;
 	left: 1111px;
+	z-index: -1 !important;
 }
 #bak026{
 	top: 1024px;
