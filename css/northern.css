@@ -235,6 +235,7 @@
 #nor043{
 	top: 707px;
 	left: 2240px;
+	z-index: -1 !important;
 }
 #nor044{
 	top: 342px;

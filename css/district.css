@@ -352,6 +352,11 @@
 	top: 1683px;
 	left: 2277px;
 }
+#dis064{
+	top: 1688px;
+	left: 1464px;
+	z-index: 11 !important;
+}
 #dis065{
 	top: 1696px;
 	left: 2290px;
@@ -576,4 +581,9 @@
 #dis098{
 	top: 1688px;
 	left: 1196px;
+}
+#dis099{
+	top: 1598px;
+	left: 2377px;
+	z-index: 11 !important;
 }

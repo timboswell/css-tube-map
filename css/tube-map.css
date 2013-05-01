@@ -134,8 +134,8 @@ strong.left{
     left: 88px;
 }
 .roundel strong.left.above{
-    top: -37px;
-    right: 31px;
+    top: -42px;
+    right: 29px;
 }
 strong.right{
     text-align: left;
@@ -177,6 +177,9 @@ strong.right{
 }
 .rot90{
     -webkit-transform:rotate(90deg);
+}
+.rot135{
+    -webkit-transform:rotate(135deg);
 }
 .rot180{
     -webkit-transform:rotate(180deg);
@@ -291,4 +294,12 @@ strong.right{
     display: block;
     -webkit-transform-origin: 100% 100%;
     -webkit-transform:rotate(90deg);
+}
+.spacer{
+    background-color: #fff;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    z-index: 49;
+    display: block;
 }
