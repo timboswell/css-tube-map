@@ -11,6 +11,19 @@
     background-color: #f58026;
     z-index: 10;
 }
+#overground .bend45deg{
+    border-width: 3px 3px 0 0 !important;
+    z-index: -1 !important;
+}
+#overground .bend45deg:after{
+    top: 4px;
+    left: 4px;
+    width: 30px;
+    height: 30px;
+    border-radius: 0 30px 0 0;
+    border: 3px solid #f58026;
+    border-width: 3px 0 0 0;
+}
 #ove001{
 	top: 54px;
 	left: 1114px;

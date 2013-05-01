@@ -379,6 +379,7 @@
 #dis068{
 	top: 1511px;
 	left: 2755px;
+	z-index: -1 !important;
 }
 #dis069{
 	top: 1524px;
@@ -397,6 +398,8 @@
 #dis072{
 	top: 1229px;
 	left: 3482px;
+	z-index: -1 !important;
+
 }
 #dis073{
 	top: 1237px;

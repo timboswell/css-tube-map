@@ -166,6 +166,7 @@
 #cir034{
 	top: 1493px;
 	left: 2745px;
+	z-index: -1 !important;
 }
 #cir035{
 	top: 1306px;
