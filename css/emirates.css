@@ -1,0 +1,118 @@
+#emirates .route{
+	background-color: #fff;
+	box-sizing: border-box;
+	border: 2px solid #e51937;
+	border-width: 0 2px;
+    height: 6px;
+}
+#emirates .route.hor{
+	border-width: 2px 0;
+}
+#emirates .station{
+    background-color: #e51937;
+    z-index: 10;
+}
+#emi001{
+    top: 1618px;
+    left: 3437px;
+    width: 161px;
+    z-index: 21 !important;
+    background-color: #fff;
+}
+#emi002{
+    top: 1624px;
+    left: 3404px;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #e51937;
+    border-radius: 100%;
+    z-index: -1 !important;
+}
+#emi003{
+    top: 1620px;
+    left: 3400px;
+    width: 68px;
+    height: 68px;
+    border: 2px solid #e51937;
+    border-radius: 100%;
+    z-index: -1 !important;
+}
+#emi004{
+    top: 1616px;
+    left: 3396px;
+    width: 76px;
+    height: 76px;
+    border: 2px solid #e51937;
+    border-radius: 100%;
+    z-index: -1 !important;
+}
+#emi005{
+    top: 1561px;
+    left: 3566px;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #e51937;
+    border-radius: 100%;
+    z-index: -1 !important;
+}
+#emi006{
+    top: 1557px;
+    left: 3562px;
+    width: 68px;
+    height: 68px;
+    border: 2px solid #e51937;
+    border-radius: 100%;
+    z-index: -1 !important;
+}
+#emi007{
+    top: 1553px;
+    left: 3558px;
+    width: 76px;
+    height: 76px;
+    border: 2px solid #e51937;
+    border-radius: 100%;
+    z-index: -1 !important;
+}
+#emi008{
+    top: 1621px;
+    left: 3440px;
+    width: 161px;
+    z-index: 21px !important;
+    background-color: #fff;
+}
+#emi009{
+    top: 1686px;
+    left: 3400px;
+    width: 36px
+}
+#emi010{
+    top: 1553px;
+    left: 3595px;
+    width: 36px;
+}
+#emi011{
+    top: 1690px;
+    left: 3400px;
+    width: 36px
+}
+#emi012{
+    top: 1557px;
+    left: 3595px;
+    width: 36px;
+}
+#emi013{
+    top: 1561px;
+    left: 3550px;
+    width: 100px;
+    height: 100px;
+    z-index: -1 !important;
+    border-radius: 60px 0 0 0;
+}
+#emi014{
+    top: 1586px;
+    left: 3385px;
+    width: 100px;
+    height: 100px;
+    z-index: -1 !important;
+    border-radius: 0 0 60px 0;
+}

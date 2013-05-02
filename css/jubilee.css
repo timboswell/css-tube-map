@@ -209,7 +209,7 @@
 	top: 994px;
 	left: 3410px;
 	height: 626px;
-	z-index: -1 !important;
+	z-index: 0 !important;
 }
 
 
