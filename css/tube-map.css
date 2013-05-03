@@ -282,10 +282,212 @@ strong.right{
     -webkit-transform:rotate(90deg);
 }
 .spacer{
-    background-color: #fff;
+    background-color: white;
     width: 4px;
     height: 4px;
     position: absolute;
     z-index: 49;
     display: block;
 }
+.rail-symbol{
+    height: 15px;
+    width: 23px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.rail-symbol li{
+    height: 3px;
+    background: red;
+    display: block;
+    position: absolute;
+}
+.rail-symbol li.hor{
+    width: 100%;
+    top: 3px;
+}
+.rail-symbol li.hor2{
+    width: 100%;
+    top: 9px;
+}
+.rail-symbol li.diag,
+.rail-symbol li.diag2{
+    width: 13px;
+    height: 2px;
+    -webkit-transform: rotate(26deg);
+    left: 4px;
+}
+.rail-symbol li.diag2{
+    left: 7px;
+    bottom: 0;
+}
+.rail-symbol li.diag3{
+    width: 13px;
+    height: 2px;
+    -webkit-transform: rotate(-26deg);
+    left: 6px;
+    top: 6px;
+}
+.cross-symbol{
+    top: 1878px;
+    left: 185px;
+    height: 30px;
+    width: 16px;
+    position: absolute;
+    overflow: hidden;
+}
+.cross-symbol li.hor{
+    height: 2px;
+    width: 12px;
+    background-color: red;
+    left: 2px;
+    top: 8px;
+    position: absolute;
+    border-radius: 20px;
+}
+.cross-symbol li.vert{
+    height: 26px;
+    width: 2px;
+    background-color: red;
+    left: 7px;
+    top: 2px;
+    position: absolute;
+    border-radius: 20px;
+}
+.cross-symbol li.hor:before{
+    content: '';
+    height: 4px;
+    width: 4px;
+    border-radius: 100%;
+    background-color: red;
+    display: block;
+    position: absolute;
+    left: -1px;
+    top: -1px;
+}
+.cross-symbol li.hor:after{
+    content: '';
+    height: 4px;
+    width: 4px;
+    border-radius: 100%;
+    background-color: red;
+    display: block;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+}
+.cross-symbol li.vert:before{
+    content: '';
+    height: 4px;
+    width: 6px;
+    border-radius: 100%;
+    background-color: red;
+    display: block;
+    position: absolute;
+    left: -2px;
+    top: -1px;
+}
+.cross-symbol li.vert:after{
+    content: '';
+    height: 0;
+    width: 0;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-top: 11px solid red;
+    display: block;
+    position: absolute;
+    left: -1px;
+    top: 11px;
+}
+
+
+.cablecar-symbol{
+    top: 1594px;
+    left: 3549px;
+    height: 31px;
+    width: 20px;
+    display: block;
+    position: absolute;
+}
+.cablecar-symbol li{
+    position: absolute;
+    display: block;
+}
+
+.cablecar-symbol .body{
+    height: 18px;
+    width: 12px;
+    top: 10px;
+    left: 4px;
+    background-color: #1c3f95;
+}
+.cablecar-symbol .left{
+    content: '';
+    height: 0;
+    width: 0;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-right: 2px solid #1c3f95;
+    top: 10px;
+    left: 2px;
+}
+.cablecar-symbol .right{
+    content: '';
+    height: 0;
+    width: 0;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-left: 2px solid #1c3f95;
+    top: 10px;
+    right: 2px;
+}
+.cablecar-symbol .window1,
+.cablecar-symbol .window2{
+    content: '';
+    height: 6px;
+    width: 4px;
+    background: #fff;
+    top: 12px;
+    left: 5px;
+}
+.cablecar-symbol .window2{
+    top: 12px;
+    left: 11px;
+}
+.cablecar-symbol .wire{
+    top: 8px;
+    left: 6px;
+    background: #1c3f95;
+    height: 2px;
+    width: 10px;
+    -webkit-transform: rotate(-31deg);
+    border-radius: 0 0 5px 0;
+    z-index: -1;
+}
+.cablecar-symbol .wire:before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 6px;
+    background: #1c3f95;
+    height: 2px;
+    width: 6px;
+    -webkit-transform: rotate(78deg);
+    border-radius: 0 5px 0 0;
+}
+.cablecar-symbol .wire:after{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 5px;
+    background: #1c3f95;
+    height: 2px;
+    width: 7px;
+    -webkit-transform: rotate(-12deg);
+    border-radius: 11px 11px 0 0;
+}
+
+
+
+
