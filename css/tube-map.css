@@ -91,6 +91,11 @@ strong{
     line-height: 20px;
     z-index: 30;
 }
+strong.boxed{
+    background: #fff;
+    border: 3px solid #ccc;
+    padding: 8px 6px;
+}
 strong.below,
 strong.above{
     line-height: 20px;
