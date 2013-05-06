@@ -109,6 +109,9 @@
 	top: 1930px;
 	left: 349px;
 }
+#pic021 strong{
+	left: 35px;
+}
 #pic022{
 	top: 1949px;
 	left: 291px;
@@ -407,6 +410,7 @@
 #pic072{
 	top: 592px;
 	left: 2728px;
+	z-index: -11 !important;
 }
 #pic073{
 	top: 149px;

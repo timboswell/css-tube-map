@@ -574,6 +574,24 @@ strong.right{
     z-index: 3;
 }
 
+.navy .disabled-symbol,
+#dlr .disabled-symbol,
+.navy .disabled-symbol .wheel:before,
+#dlr .disabled-symbol .wheel:before,
+.navy .disabled-symbol .wheel,
+#dlr .disabled-symbol .wheel{
+    background-color: #1c3f95;
+}
+.navy .disabled-symbol li,
+#dlr .disabled-symbol li,
+.navy .disabled-symbol li:before,
+#dlr .disabled-symbol li:before{
+    background-color: #fff;
+}
+.navy .disabled-symbol .wheel,
+#dlr .disabled-symbol .wheel{
+    border-color: #fff;
+}
 
 .boat-symbol{
     width: 34px;
@@ -918,4 +936,5 @@ strong.right{
     display: block;
     position: absolute;
     height: 37px;
+    z-index: -10;
 }

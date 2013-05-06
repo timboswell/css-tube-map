@@ -13,7 +13,7 @@
 }
 #overground .bend45deg{
     border-width: 3px 3px 0 0 !important;
-    z-index: -1 !important;
+    z-index: -11 !important;
 }
 #overground .bend45deg:after{
     top: 4px;
@@ -211,13 +211,13 @@
 	left: 2609px;
 }
 #ove034 strong{
-	right: 13px;
-	top: 10px;
-	padding-right: 38px;
+	right: -13px;
+	top: 13px;
+	padding-right: 32px;
 }
 #ove034 .rail-symbol{
 	top: 10px;
-	left: 160px;
+	left: -23px;
 }
 #ove035{
 	top: 2135px;
@@ -664,6 +664,7 @@
 #ove123{
 	top: 507px;
 	left: 2553px;
+	z-index: -11 !important;
 }
 #ove124{
 	top: 509px;

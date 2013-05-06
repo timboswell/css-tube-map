@@ -55,6 +55,7 @@
 	left: 900px;
 	top: 806px;
 	width: 212px;
+	z-index: -12;
 }
 #box011{
 	left: 1444px;
