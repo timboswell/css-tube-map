@@ -44,6 +44,11 @@
 	top: 553px;
 	left: 2267px;
 }
+#nor008 strong{
+	top: -17px;
+	left: -3px;
+	padding-left: 16px;
+}
 #nor009{
 	top: 619px;
 	left: 2267px;
@@ -51,6 +56,14 @@
 #nor010{
 	top: 670px;
 	left: 2245px;
+}
+#nor010 strong{
+	left: 32px;
+	top: 1px;
+}
+#nor010 .rail-symbol{
+	top: 2px;
+	left: 143px;
 }
 #nor011{
 	top: 289px;
@@ -73,8 +86,9 @@
 	left: 1750px;
 }
 #nor014 strong{
-	top: 31px;
-	right: 31px;
+	top: 19px;
+	right: 19px;
+	padding-right: 14px;
 }
 #nor015{
 	top: 535px;
@@ -134,6 +148,14 @@
 	top: 1137px;
 	left: 2482px;
 }
+#nor026 strong{
+	top: 3px;
+	left: 34px;
+}
+#nor026 .rail-symbol{
+	top: 2px;
+	left: 112px;
+}
 #nor027{
 	top: 1458px;
 	left: 2482px;
@@ -145,6 +167,14 @@
 #nor028 strong{
 	top: 12px;
 	left: 93px;
+}
+#nor028 .boat-symbol{
+	top: 67px;
+	left: 29px;
+}
+#nor028 .rail-symbol{
+	top: 69px;
+	left: 0px;
 }
 #nor029{
 	top: 1973px;
@@ -178,6 +208,10 @@
 	top: 2426px;
 	left: 1797px;
 }
+#nor034 strong{
+	right: -7px;
+	top: -36px;
+}
 #nor035{
 	top: 2468px;
 	left: 1742px;
@@ -185,6 +219,10 @@
 #nor035 strong{
 	top: -40px;
 	right: 26px;
+}
+#nor035 .rail-symbol{
+	top: 22px;
+	left: 17px;
 }
 #nor036{
 	top: 2517px;
@@ -215,12 +253,15 @@
 	left: 1595px;
 }
 #nor039 strong{
-	left: 36px;
-	top: -132px;
+	left: 28px;
+	top: -149px;
 }
 #nor040{
 	top: 2682px;
 	left: 1527px;
+}
+#nor040 strong{
+	top: 1px;
 }
 #nor041{
 	top: 137px;

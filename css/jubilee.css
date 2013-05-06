@@ -35,6 +35,9 @@
 	top: 738px;
 	left: 1447px;
 }
+#jub008 strong{
+	top: -27px;
+}
 #jub009{
 	top: 784px;
 	left: 1482px;
@@ -42,6 +45,10 @@
 #jub010{
 	top: 828px;
 	left: 1526px;
+}
+#jub010 .rail-symbol{
+	top: 3px;
+	left: 184px;
 }
 #jub011{
 	top: 877px;
@@ -62,6 +69,18 @@
 #jub015{
 	top: 1792px;
 	left: 2007px;
+}
+#jub015 .rail-symbol{
+	top: 24px;
+	left: 71px;
+}
+#jub015 .boat-symbol{
+	top: 23px;
+	left: 30px;
+}
+#jub015 .cross-symbol{
+	top: -7px;
+	left: -18px;
 }
 #jub016{
 	top: 1849px;
@@ -84,14 +103,25 @@
 	top: 1698px;
 	left: 3158px
 }
+#jub019 strong{
+	top: -37px;
+	right: 36px;
+}
+#jub019 .cross-symbol{
+	top: 11px;
+	right: 139px;
+}
 #jub020{
 	top: 1675px;
 	left: 3341px;
 }
 #jub020 strong{
-	top: 52px;
-	left: -38px;
+	top: 39px;
+	left: -35px;
 	text-align: right;
+	width: 108px;
+	padding-top: 11px;
+	padding-bottom: 22px;
 }
 #jub020 strong small{
 	display: block;
@@ -99,6 +129,10 @@
 }
 #jub020 strong em{
 	font-size: 12px;
+}
+#jub020 .boat-symbol{
+	right: 4px;
+	bottom: 4px;
 }
 #jub021{
 	top: 1498px;
@@ -211,6 +245,7 @@
 	height: 626px;
 	z-index: 0 !important;
 }
+
 
 
 

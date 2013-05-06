@@ -39,6 +39,10 @@
 #cir008 strong{
 	top: -51px;
 }
+#cir008 .rail-symbol{
+	top: 1px;
+	left: -16px;
+}
 #cir009{
 	top: 1257px;
 	left: 2482px;
@@ -46,6 +50,10 @@
 #cir009 strong{
 	top: 13px;
 	left: 85px;
+}
+#cir009 .rail-symbol{
+	top: 21px;
+	left: 101px;
 }
 #cir010{
 	top: 1244px;
@@ -59,6 +67,10 @@
 #cir011 strong{
 	right: 28px;
 	top: 5px;
+}
+#cir011 .rail-symbol{
+	top: 41px;
+	left: 81px;
 }
 #cir012{
 	top: 1106px;

@@ -11,6 +11,10 @@
 	right: 39px;
 	top: -8px;
 }
+#bak001 .rail-symbol{
+	top: 1px;
+	left: 3px;
+}
 #bak002{
 	top: 465px;
 	left: 1125px;
@@ -40,8 +44,9 @@
 	left: 1108px;
 }
 #bak008 strong{
-	right: 37px;
-	top: -12px;
+	right: 21px;
+	top: -23px;
+	padding-right: 8px;
 }
 #bak009{
 	top: 886px;
@@ -67,6 +72,10 @@
 	top: 1064px;
 	left: 1313px;
 }
+#bak014 .rail-symbol{
+	top: 21px;
+	left: 124px;
+}
 #bak015{
 	top: 1069px;
 	left: 1472px;
@@ -74,6 +83,10 @@
 #bak016{
 	top: 1064px;
 	left: 1579px;
+}
+#bak016 .rail-symbol{
+	top: 21px;
+	left: 125px;
 }
 #bak017{
 	top: 1147px;
@@ -91,6 +104,10 @@
 	top: 1585px;
 	left: 2041px;
 }
+#bak019 .rail-symbol{
+	top: 2px;
+	left: -27px;
+}
 #bak020{
 	top: 1710px;
 	left: 2075px;
@@ -98,6 +115,14 @@
 #bak020 strong{
 	top: 3px;
 	left: 33px;
+}
+#bak020 .rail-symbol{
+	top: 0;
+	right: -40px;
+}
+#bak020 .boat-symbol{
+	top: 0px;
+	right: -38px;
 }
 #bak021{
 	top: 1792px;
@@ -115,8 +140,15 @@
 	left: 2130px;
 }
 #bak023 strong{
-	top: 4px;
-	left: 28px;
+	top: 11px;
+	left: 13px;
+	padding-left: 13px;
+	width: 208px;
+	padding-right: 10px;
+}
+#bak023 .rail-symbol{
+	top: 12px;
+	left: 200px;
 }
 #bak024{
 	top: 421px;

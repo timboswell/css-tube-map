@@ -51,6 +51,13 @@
 	top: 1498px;
 	left: 3015px;
 }
+#dlr003 strong{
+	top: 35px;
+}
+#dlr003 .rail-symbol{
+	top: 21px;
+	left: 49px;
+}
 #dlr004{
 	top: 1498px;
 	left: 3094px;
@@ -66,6 +73,12 @@
 #dlr007{
 	top: 1498px;
 	left: 3331px;
+}
+#dlr007 strong{
+	top: 21px;
+	width: auto;
+	left: 42px;
+	padding: 10px 8px;
 }
 #dlr008{
 	top: 1498px;
@@ -95,34 +108,68 @@
 	top: 1744px;
 	left: 3981px;
 }
+#dlr013 strong{
+	top: 31px;
+	right: 27px;
+}
 #dlr014{
 	top: 1802px;
 	left: 4039px;
+}
+#dlr014 strong{
+	right: 26px;
+	top: 28px;
 }
 #dlr015{
 	top: 1663px;
 	left: 3664px;
 }
+#dlr015 strong{
+	top: -38px;
+}
 #dlr016{
 	top: 1721px;
 	left: 3723px;
+}
+#dlr016 strong{
+	top: 25px;
+	right: 34px;
 }
 #dlr017{
 	top: 1774px;
 	left: 3775px;
 }
+#dlr017 strong{
+	right: 32px;
+	top: 26px;
+}
+#dlr017 .plane-symbol{
+	top: 18px;
+	right: -29px;
+}
 #dlr018{
 	top: 1846px;
 	left: 3847px;
+}
+#dlr018 strong{
+	top: 28px;
+	right: 32px;
 }
 #dlr018b{
 	top: 2003px;
 	left: 4004px;
 }
-
+#dlr018b .rail-symbol{
+	top: 2px;
+	left: -19px;
+}
 #dlr019{
 	top: 1458px;
 	left: 3439px;
+}
+#dlr019 strong{
+	top: -35px;
+	left: 91px;
 }
 #dlr020{
 	top: 1340px;
@@ -132,21 +179,49 @@
 	top: 1256px;
 	left: 3439px;
 }
+#dlr021 .rail-symbol{
+	top: 3px;
+	left: 111px;
+}
 #dlr022{
 	top: 1124px;
 	left: 3439px;
+}
+#dlr022 strong{
+	top: -3px;
+	left: 38px;
 }
 #dlr023{
 	top: 1049px;
 	left: 3439px;
 }
+#dlr023 strong{
+	top: -4px;
+	left: 39px;
+}
 #dlr024{
 	top: 869px;
 	left: 3304px;
 }
+#dlr024 strong{
+	width: auto;
+	top: -39px;
+	left: -67px;
+}
+#dlr024 .rail-symbol{
+	top: 0px;
+	left: 9px;
+}
 #dlr025{
 	top: 1059px;
 	left: 3304px;
+}
+#dlr025 strong{
+	top: 27px;
+	left: 58px;
+	width: 99px;
+	padding: 10px 3px 3px;
+	text-align: left;
 }
 #dlr026{
 	top: 1270px;
@@ -168,9 +243,21 @@
 	top: 1587px;
 	left: 3157px;
 }
+#dlr030 strong{
+	top: -2px;
+	left: 39px;
+}
+#dlr030 .cross-symbol{
+	top: 12px;
+	right: -19px;
+}
 #dlr031{
 	top: 1749px;
 	left: 3157px;
+}
+#dlr031 .cross-symbol{
+	top: -6px;
+	left: -21px;
 }
 #dlr032{
 	top: 1805px;
@@ -192,21 +279,61 @@
 	top: 2061px;
 	left: 3157px;
 }
+#dlr036 strong{
+	padding-left: 19px;
+	width: 244px;
+	left: 17px;
+	top: -12px;
+}
+#dlr036 .boat-symbol{
+	right: 7px;
+	bottom: 6px;
+}
 #dlr037{
 	top: 2122px;
 	left: 3157px;
+}
+#dlr037 strong{
+	left: 18px;
+	padding-left: 17px;
+	width: 138px;
+	top: -6px;
+}
+#dlr037 .rail-symbol{
+	top: 10px;
+	left: 132px;
 }
 #dlr038{
 	top: 2175px;
 	left: 3157px;
 }
+#dlr038 strong{
+	left: 18px;
+	padding-left: 17px;
+	top: -6px;
+}
 #dlr039{
 	top: 2228px;
 	left: 3157px;
 }
+#dlr039 strong{
+	padding-left: 17px;
+	top: -6px;
+	left: 18px;
+}
 #dlr040{
 	top: 2281px;
 	left: 3157px;
+}
+#dlr040 strong{
+	left: 18px;
+	padding-left: 17px;
+	width: 138px;
+	top: -6px;
+}
+#dlr040 .rail-symbol{
+	left: 124px;
+	top: 10px;
 }
 #dlr041{
 	top: 1549px;

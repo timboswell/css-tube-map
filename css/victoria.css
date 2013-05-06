@@ -9,7 +9,12 @@
 }
 #vic001 strong{
 	left: 3px;
-	top: 35px;
+	top: 34px;
+	width: auto;
+}
+#vic001 .rail-symbol{
+	top: 21px;
+	left: 112px;
 }
 #vic002{
 	top: 590px;
@@ -23,9 +28,21 @@
 	top: 590px;
 	left: 2969px;
 }
+#vic003 strong{
+	top: 38px;
+	left: 17px;
+}
+#vic003 .rail-symbol{
+	top: 23px;
+	left: 87px;
+}
 #vic004{
 	top: 590px;
 	left: 2877px;
+}
+#vic004 .rail-symbol{
+	top: 22px;
+	left: 101px;
 }
 #vic005{
 	top: 633px;
@@ -38,6 +55,10 @@
 #vic006 strong{
 	top: -44px;
 	left: 87px;
+}
+#vic006 .rail-symbol{
+	top: 22px;
+	left: 90px;
 }
 #vic007{
 	top: 1027px;
@@ -60,16 +81,34 @@
 	left: 1782px;
 }
 #vic011 strong{
-	top: 23px;
-	right: 29px;
+	top: 13px;
+	right: 17px;
+	height: 34px;
+	width: 92px;
+}
+#vic011 .boat-symbol{
+	top: 29px;
+	right: 37px;
+}
+#vic011 .rail-symbol{
+	top: 31px;
+	left: 70px;
 }
 #vic012{
 	top: 2253px;
 	left: 1958px;
 }
+#vic012 strong{
+	left: 33px;
+	top: 1px;
+}
 #vic013{
 	top: 2361px;
 	left: 2067px;
+}
+#vic013 .rail-symbol{
+	top: 20px;
+	left: 76px;
 }
 #vic014{
 	top: 602px;
@@ -97,6 +136,7 @@
 #vic019{
 	top: 954px;
 	left: 2614px;
+	z-index: -1! important;
 }
 #vic020{
 	top: 999px;

@@ -6,6 +6,10 @@
 	left: 42px;
 	top: 131px;
 }
+#met001 .rail-symbol{
+	left: 7px;
+	top: 22px;
+}
 #met001 strong{
 	top: 33px;
 	left: 50px;
@@ -21,6 +25,10 @@
 #met003{
 	left: 299px;
 	top: 131px;
+}
+#met003 .rail-symbol{
+	left: 106px;
+	top: 24px;
 }
 #met004{
 	left: 459px;
@@ -55,6 +63,11 @@
 	top: 263px;
 	z-index: 11 !important;
 }
+#met008 strong{
+	padding-left: 15px;
+	top: -26px;
+	left: 23px;
+}
 #met009{
 	left: 620px;
 	top: 312px;
@@ -86,6 +99,10 @@
 #met014 strong{
 	top: -46px;
 	left: 15px;
+}
+#met014 .rail-symbol{
+	top: 2px;
+	left: -8px;
 }
 #met015{
 	left: 1051px;

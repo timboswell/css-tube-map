@@ -126,7 +126,21 @@
     top: 1540px;
     left: 3607px;
 }
+#emi015 strong{
+    width: 200px;
+    top: 8px;
+    left: 100px;
+}
 #emi016{
     top: 1675px;
     left: 3391px;
+}
+#emi016 strong{
+    top: 41px;
+    left: 69px;
+    text-align: left;
+}
+#emi016 .cross-symbol{
+    top: -8px;
+    left: -17px;
 }

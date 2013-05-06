@@ -68,6 +68,10 @@
 	top: 1048px;
 	left: 2050px;
 }
+#ove011 .rail-symbol{
+	top: 23px;
+	left: 46px;
+}
 #ove012{
 	top: 1469px;
 	left: 855px;
@@ -103,6 +107,10 @@
 	top: 18px;
 	right: 37px;
 }
+#ove018 .rail-symbol{
+	top: -1px;
+	left: 0px;
+}
 #ove019{
 	top: 2172px;
 	left: 1587px;
@@ -119,13 +127,25 @@
 	top: 2325px;
 	left: 2253px;
 }
+#ove022 .rail-symbol{
+	top: 21px;
+	left: 135px;
+}
 #ove023{
 	top: 2235px;
 	left: 2527px;
 }
+#ove023 .rail-symbol{
+	top: 21px;
+	left: -28px;
+}
 #ove024{
 	top: 2135px;
 	left: 2627px;
+}
+#ove024 .rail-symbol{
+	top: 0px;
+	left: -28px;
 }
 #ove025{
 	top: 2135px;
@@ -133,6 +153,10 @@
 }
 #ove025 strong{
 	top: 0;
+}
+#ove025 .rail-symbol{
+	top: 23px;
+	left: 57px;
 }
 #ove026{
 	top: 2222px;
@@ -150,6 +174,10 @@
 	top: 2365px;
 	left: 2715px;
 }
+#ove029 .rail-symbol{
+	top: 4px;
+	left: 110px;
+}
 #ove030{
 	top: 2434px;
 	left: 2737px;
@@ -162,17 +190,42 @@
 	top: 2525px;
 	left: 2715px;
 }
+#ove032 .rail-symbol{
+	top: 0px;
+	left: 191px;
+}
 #ove033{
 	top: 2580px;
 	left: 2715px;
+}
+#ove033 .rail-symbol{
+	top: 2px;
+	left: 150px;
+}
+#ove033 .tram-symbol{
+	top: 1px;
+	left: 176px;
 }
 #ove034{
 	top: 2503px;
 	left: 2609px;
 }
+#ove034 strong{
+	right: 13px;
+	top: 10px;
+	padding-right: 38px;
+}
+#ove034 .rail-symbol{
+	top: 10px;
+	left: 160px;
+}
 #ove035{
 	top: 2135px;
 	left: 2902px;
+}
+#ove035 .rail-symbol{
+	top: 0px;
+	left: 118px;
 }
 #ove036{
 	top: 1828px;
@@ -210,6 +263,11 @@
 	top: 1099px;
 	left: 2903px;
 }
+#ove042 strong{
+	right: 18px;
+	top: -7px;
+	padding-right: 19px;
+}
 #ove043{
 	top: 1006px;
 	left: 2903px;
@@ -218,9 +276,16 @@
 	top: 896px;
 	left: 2877px;
 }
+#ove044 strong{
+	top: 30px;
+	right: 26px;
+}
 #ove045{
 	top: 851px;
 	left: 2766px;
+}
+#ove045 strong{
+	top: 35px;
 }
 #ove046{
 	top: 851px;
@@ -238,6 +303,10 @@
 	top: 884px;
 	left: 2932px;
 }
+#ove049 strong{
+	top: -44px;
+	left: 84px;
+}
 #ove050{
 	top: 830px;
 	left: 2866px;
@@ -245,26 +314,34 @@
 #ove051{
 	top: 825px;
 	left: 2766px;
-	z-index: -1 !important;
+	z-index: 7 !important;
 }
 #ove052{
 	top: 825px;
 	left: 2643px;
-	z-index: -1 !important;
+	z-index: 7 !important;
 }
 #ove053{
 	top: 825px;
 	left: 2552px;
-	z-index: -1 !important;
+	z-index: 7 !important;
 }
 #ove054{
 	top: 789px;
 	left: 2283px;
-	z-index: -1 !important;
+	z-index: 7 !important;
+}
+#ove054 strong{
+	top: 30px;
+	right: 27px;
 }
 #ove055{
 	top: 721px;
 	left: 2205px;
+}
+#ove055 strong{
+	top: -11px;
+	right: 41px;
 }
 #ove056{
 	top: 668px;
@@ -277,6 +354,11 @@
 #ove058{
 	top: 745px;
 	left: 1854px;
+}
+#ove058 strong{
+	right: 8px;
+	top: -6px;
+	width: 200px;
 }
 #ove059{
 	top: 851px;
@@ -314,9 +396,17 @@
 	top: 684px;
 	left: 3145px;
 }
+#ove067 strong{
+	top: 26px;
+	right: 33px;
+}
 #ove068{
 	top: 762px;
 	left: 3303px;
+}
+#ove068 strong{
+	top: -44px;
+	left: -3px;
 }
 #ove069{
 	top: 762px;
@@ -329,6 +419,11 @@
 #ove071{
 	top: 989px;
 	left: 3670px;
+}
+#ove071 strong{
+	top: -17px;
+	right: -2px;
+	padding-right: 15px;
 }
 #ove072{
 	top: 54px;

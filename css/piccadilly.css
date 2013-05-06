@@ -7,6 +7,9 @@
 	top: 395px;
 	left: 50px;
 }
+#pic001 strong{
+	left: 46px;
+}
 #pic002{
 	top: 395px;
 	left: 195px;
@@ -110,9 +113,17 @@
 	top: 1949px;
 	left: 291px;
 }
+#pic022 .cross-symbol{
+	top: -30px;
+	right: 92px;
+}
 #pic023{
 	top: 2002px;
 	left: 253px;
+}
+#pic023 strong{
+	right: -7px;
+	top: -40px;
 }
 #pic024{
 	top: 2064px;
@@ -128,6 +139,10 @@
 #pic025 strong{
 	top: -4px;
 	left: 38px;
+}
+#pic025 .plane-symbol{
+	top: 15px;
+	left: -73px;
 }
 #pic026{
 	top: 2176px;
@@ -154,8 +169,10 @@
 	left: 1336px;
 }
 #pic030 strong{
-	top: 66px;
-	left: 30px;
+	top: 46px;
+	left: 48px;
+	width: 63px;
+	padding-top: 16px;
 }
 #pic031{
 	top: 1659px;
@@ -218,6 +235,10 @@
 	margin-left: -62px;
 	top: -94px;
 }
+#pic040 .rail-symbol{
+	top: -16px;
+	left: 50px;
+}
 #pic041{
 	top: 783px;
 	left: 2536px;
@@ -242,9 +263,18 @@
 	top: 48px;
 	left: 112px;
 }
+#pic044 .rail-symbol{
+	top: 23px;
+	left: 47px;
+}
 #pic045{
 	top: 553px;
 	left: 2737px;
+}
+#pic045 strong{
+	top: -18px;
+	right: -3px;
+	padding-right: 18px;
 }
 #pic046{
 	top: 472px;
@@ -257,6 +287,12 @@
 #pic048{
 	top: 362px;
 	left: 2737px;
+}
+#pic048 strong{
+	top: -19px;
+	left: -162px;
+	right: -2px;
+	padding-right: 14px;
 }
 #pic049{
 	top: 307px;

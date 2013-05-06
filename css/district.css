@@ -11,6 +11,15 @@
 	top: 1705px;
 	left: 830px;
 }
+#dis002 strong{
+	top: -1px;
+	width: 94px;
+	padding-top: 10px;
+}
+#dis002 .cross-symbol{
+	top: 28px;
+	left: 88px;
+}
 #dis003{
 	top: 1705px;
 	left: 930px;
@@ -59,6 +68,14 @@
 #dis013{
 	top: 2225px;
 	left: 1300px;
+}
+#dis013 .rail-symbol{
+	left: -27px;
+	top: 4px;
+}
+#dis013 .tram-symbol{
+	top: 3px;
+	left: -65px;
 }
 #dis014{
 	top: 1130px;
@@ -112,6 +129,10 @@
 	top: -26px;
 	right: 25px;
 }
+#dis022 .rail-symbol{
+	top: -17px;
+	left: 94px;
+}
 #dis023{
 	top: 1688px;
 	left: 1833px;
@@ -127,6 +148,10 @@
 #dis024 strong{
 	top: 34px;
 	right: 15px;
+}
+#dis024 .boat-symbol{
+	top: 18px;
+	left: 100px;
 }
 #dis025{
 	top: 1678px;
@@ -144,6 +169,18 @@
 	top: 1627px;
 	left: 2326px;
 }
+#dis027 strong{
+	top: -38px;
+	right: 29px;
+}
+#dis027 .rail-symbol{
+	top: 22px;
+	left: -18px;
+}
+#dis027 .boat-symbol{
+	top: 21px;
+	left: -55px;
+}
 #dis028{
 	top: 1597px;
 	left: 2377px;
@@ -160,6 +197,14 @@
 	top: -46px;
 	right: 23px;
 }
+#dis029 .rail-symbol{
+	top: 21px;
+	left: -29px;
+}
+#dis029 .cross-symbol{
+	top: 10px;
+	left: -49px;
+}
 #dis030{
 	top: 1506px;
 	left: 2702px;
@@ -169,10 +214,37 @@
 	left: -53px;
 	text-align: right;
 }
+#dis030 .boat-symbol{
+	top: 21px;
+	left: 46px;
+}
 #dis030 small{
 	font-size: 13px;
 	display: block;
 	margin-top: -20px
+}
+#dis030 .rail-symbol{
+	top: 44px;
+	left: -3px;
+	width: 15px;
+	height: 12px;
+}
+#dis030 .rail-symbol li{
+	height: 2px;
+}
+#dis030 .rail-symbol li.hor2{
+	top: 7px;
+}
+#dis030 .rail-symbol li.diag{
+	left: 0;
+}
+#dis030 .rail-symbol li.diag2{
+	left: 4px;
+}
+#dis030 .rail-symbol li.diag3{
+	left: 4px;
+	top: 5px;
+	width: 8px;
 }
 #dis031{
 	top: 1397px;
@@ -210,6 +282,11 @@
 	top: 1252px;
 	left: 3344px;
 }
+#dis036 strong{
+	top: 0;
+	left: 8px;
+	width: auto;
+}
 #dis037{
 	top: 1225px;
 	left: 3420px;
@@ -234,9 +311,19 @@
 	top: 1086px;
 	left: 3618px;
 }
+#dis040 strong{
+	top: 17px;
+	left: 76px;
+	padding-left: 12px;
+	width: 97px;
+}
 #dis041{
 	top: 1040px;
 	left: 3666px;
+}
+#dis041 .rail-symbol{
+	top: 21px;
+	left: 76px;
 }
 #dis042{
 	top: 987px;
@@ -286,6 +373,14 @@
 	top: 673px;
 	left: 4039px;
 }
+#dis049 strong{
+	top: -36px;
+	right: 32px;
+}
+#dis049 .rail-symbol{
+	top: 24px;
+	left: -15px;
+}
 #dis050{
 	top: 1705px;
 	left: 1048px;
@@ -302,9 +397,21 @@
 	top: 1923px;
 	left: 751px;
 }
+#dis053 strong{
+	top: -7px;
+	left: 23px;
+	padding-left: 11px;
+}
 #dis054{
 	top: 1989px;
 	left: 751px;
+}
+#dis054 strong{
+	left: 39px;
+}
+#dis054 .rail-symbol{
+	top: 3px;
+	left: 106px;
 }
 #dis055{
 	top: 1506px;
@@ -457,6 +564,10 @@
 #dis083 strong{
 	top: -6px;
 	right: 68px;
+}
+#dis083 .rail-symbol{
+	top: -18px;
+	left: 89px;
 }
 #dis084{
 	top: 1565px;

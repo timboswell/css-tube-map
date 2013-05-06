@@ -7,6 +7,10 @@
 	top: 315px;
 	left: 376px;
 }
+#cen001 .rail-symbol{
+	top: 1px;
+	left: -24px;
+}
 #cen002{
 	top: 347px;
 	left: 388px;
@@ -21,6 +25,10 @@
 	top: 645px;
 	left: 376px;
 }
+#cen004 .rail-symbol{
+	top: 1px;
+	left: -28px;
+}
 #cen005{
 	top: 772px;
 	left: 380px;
@@ -28,6 +36,13 @@
 #cen006{
 	top: 924px;
 	left: 405px;
+}
+#cen006 strong{
+	top: 5px;
+}
+#cen006 .rail-symbol{
+	left: -25px;
+	top: 2px;
 }
 #cen007{
 	top: 1034px;
@@ -41,6 +56,10 @@
 	top: 1351px;
 	left: 539px;
 }
+#cen009 .rail-symbol{
+	left: -27px;
+	top: 1px;
+}
 #cen010{
 	top: 1368px;
 	left: 757px;
@@ -48,6 +67,11 @@
 #cen011{
 	top: 1368px;
 	left: 927px;
+}
+#cen011 strong{
+	top: 0px;
+	width: 61px;
+	left: 25px;
 }
 #cen012{
 	top: 1351px;
@@ -61,6 +85,10 @@
 	top: 1345px;
 	left: 1204px;
 }
+#cen014 .rail-symbol{
+	top: 22px;
+	left: 92px;
+}
 #cen015{
 	top: 1368px;
 	left: 1305px;
@@ -70,9 +98,10 @@
 	left: 1378px;
 }
 #cen016 strong{
-	left: 91px;
-	top: -43px;
+	left: 79px;
+	top: -52px;
 	text-align: left;
+	width: 95px;
 }
 #cen017{
 	top: 1368px;
@@ -149,6 +178,10 @@
 	top: 919px;
 	left: 3399px;
 }
+#cen030 .rail-symbol{
+	top: 3px;
+	left: 99px;
+}
 #cen031{
 	top: 806px;
 	left: 3442px;
@@ -156,6 +189,11 @@
 #cen032{
 	top: 682px;
 	left: 3442px;
+}
+#cen032 strong{
+	top: -18px;
+	padding-right: 13px;
+	right: -2px;
 }
 #cen033{
 	top: 519px;
