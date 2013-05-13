@@ -1,0 +1,69 @@
+header{
+	background-color: #1c3f95;
+	height: 70px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 500;
+	padding: 0 30px;	
+}
+header a{
+	color: #fff;
+	text-decoration: none;
+}
+header nav{
+	float: right;
+}
+header li{
+	float: left;
+	margin-left: 10px;
+}
+h1{
+	font-size: 30px;
+	margin-top: 20px;
+	float: left;
+}
+h1 small{
+	font-size: 15px;
+}
+
+#overlay{
+	display: block;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: #fff;
+	position: fixed;
+	z-index: 490;
+	opacity: 0.9;
+}
+#tube-logo{
+	height: 300px;
+	width: 300px;
+	display: block;
+	margin: 200px auto;
+	border: 1px solid red;
+	position: relative;
+	padding: 0 50px;
+}
+#tube-logo .ring{
+	border-radius: 100%;
+	border: 50px solid red;
+	display: block;
+	height: 200px;
+	width: 200px;
+}
+#tube-logo .strip{
+	background: blue;
+	display: block;
+	width: auto;
+	position: absolute;
+	top: 119px;
+	left: 39px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 30px;
+	padding: 5px 10px;
+}
