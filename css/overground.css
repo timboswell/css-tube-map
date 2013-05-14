@@ -287,6 +287,10 @@
 #ove045 strong{
 	top: 35px;
 }
+#ove045 .disabled-symbol:before{
+	top: -2px;
+	height: 29px;
+}
 #ove046{
 	top: 851px;
 	left: 2667px;
@@ -312,7 +316,7 @@
 	left: 2866px;
 }
 #ove051{
-	top: 825px;
+	top: 822px;
 	left: 2766px;
 	z-index: 7 !important;
 }
