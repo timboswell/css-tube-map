@@ -109,6 +109,7 @@
 	top: 1421px;
 	left: 2818px;
 	-webkit-transform: rotate(135deg);
+	-moz-transform: rotate(135deg);
 }
 #ham020{
 	top: 1431px;

@@ -1,5 +1,6 @@
 #overground .route{
 	background-color: #fff;
+	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	border: 3px solid #f58026;
 	border-width: 0 3px;
@@ -496,6 +497,7 @@
 	top: 831px;
 	left: 1752px;
 	-webkit-transform: rotate(135deg);
+	-moz-transform: rotate(135deg);
 }
 #ove087{
 	top: 761px;
@@ -623,6 +625,7 @@
 	top: 1823px;
 	left: 1277px;
 	-webkit-transform: rotate(229deg);
+	-moz-transform: rotate(229deg);
 }
 #ove115{
 	top: 1486px;
@@ -638,11 +641,13 @@
 	top: 1474px;
 	left: 1268px;
 	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
 }
 #ove118{
 	top: 1158px;
 	left: 971px;
 	-webkit-transform: rotate(229deg);
+	-moz-transform: rotate(229deg);
 }
 #ove119{
 	top: 937px;
@@ -663,6 +668,7 @@
 	top: 638px;
 	left: 2404px;
 	-webkit-transform: rotate(135deg);
+	-moz-transform: rotate(135deg);
 }
 #ove123{
 	top: 507px;

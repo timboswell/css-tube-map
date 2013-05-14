@@ -1,5 +1,6 @@
 #emirates .route{
 	background-color: #fff;
+    -moz-box-sizing: border-box;
 	box-sizing: border-box;
 	border: 2px solid #e51937;
 	border-width: 0 2px;

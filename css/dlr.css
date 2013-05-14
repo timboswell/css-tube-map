@@ -1,5 +1,6 @@
 #dlr .route{
 	background-color: #fff;
+	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	border: 3px solid #959ca1;
 	border-width: 0 3px;
@@ -394,6 +395,7 @@
 	top: 1014px;
 	left: 3435px;
 	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
 }
 #dlr053{
 	top: 1511px;
@@ -403,11 +405,13 @@
 	top: 1211px;
 	left: 3166px;
 	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
 }
 #dlr055{
 	top: 1471px;
 	left: 3465px;
 	-webkit-transform: rotate(150deg);
+	-moz-transform: rotate(150deg);
 }
 #dlr056{
 	display: block;
@@ -469,6 +473,7 @@
 	display: block;
 	z-index: -10 !important;
 	-webkit-transform: rotate(135deg);
+	-moz-transform: rotate(135deg);
 }
 #dlr066{
 	top: 1514px;
@@ -481,6 +486,7 @@
 	height: 4px;
 	width: 9px;
 	-webkit-transform: rotate(2deg);
+	-moz-transform: rotate(2deg);
 }
 
 

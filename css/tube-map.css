@@ -23,22 +23,6 @@ body{
     border-width: 2px 1px 2px 2px;
     margin: 100px;
 }
-#grid{
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    background-image: url('../standard-tube-map.jpg');
-    background-position: -125px -375px;
-    opacity: 0.1;
-}
-#grid li{
-    float: left;
-    border: 1px solid #40c7f5;
-    border-width: 0 1px 1px 0;
-    width: 455px;
-    height: 455px;
-}
 .line{
     z-index: 1;
 }
@@ -53,6 +37,8 @@ body{
 .diagonal{
     -webkit-transform:rotate(45deg);
     -webkit-transform-origin: 0% 0%;
+    -moz-transform:rotate(45deg);
+    -moz-transform-origin: 0% 0%;
 }
 .roundel{
     height: 30px;
@@ -163,51 +149,66 @@ strong.right{
 
 .rot45{
     -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
 }
 .rot45 strong.above{
     -webkit-transform-origin: 0% 0%;
     -webkit-transform: rotate(315deg);
+    -moz-transform-origin: 0% 0%;
+    -moz-transform: rotate(315deg);
     margin-top: -32px;
 }
 .rot45 strong.left{
     right: 7px;
     top: -13px;
     -webkit-transform-origin: 100% 100%;
-   -webkit-transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);
+    -moz-transform-origin: 100% 100%;
+    -moz-transform: rotate(315deg);
 }
 .rot45 strong.below.right{
     left: 41px;
     top: -134px;
     -webkit-transform-origin: 100% 100%;
-   -webkit-transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);
+    -moz-transform-origin: 100% 100%;
+    -moz-transform: rotate(315deg);
 }
 .rot90{
     -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
 }
 .rot135{
     -webkit-transform:rotate(135deg);
+    -moz-transform:rotate(135deg);
 }
 .rot180{
     -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
 }
 .rot270{
     -webkit-transform:rotate(270deg);
+    -moz-transform:rotate(270deg);
 }
 .rot315{
     -webkit-transform:rotate(315deg);
+    -moz-transform:rotate(315deg);
 }
 .rot315 strong{
     -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
 }
 .rot315 strong.left{
     top: -7px;
     right: 25px;
     -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
 }
 .rot315 strong.right{
     top: -7px;
     left: 21px;
     -webkit-transform-origin: 0% 0%;
+    -moz-transform-origin: 0% 0%;
 }
 .rot315.connection strong.left{
     right: 46px;
@@ -287,6 +288,8 @@ strong.right{
     display: block;
     -webkit-transform-origin: 100% 100%;
     -webkit-transform:rotate(90deg);
+    -moz-transform-origin: 100% 100%;
+    -moz-transform:rotate(90deg);
 }
 .spacer{
     background-color: white;
@@ -323,6 +326,7 @@ strong.right{
     width: 13px;
     height: 2px;
     -webkit-transform: rotate(26deg);
+    -moz-transform: rotate(26deg);
     left: 4px;
 }
 .rail-symbol li.diag2{
@@ -333,6 +337,7 @@ strong.right{
     width: 13px;
     height: 2px;
     -webkit-transform: rotate(-26deg);
+    -moz-transform: rotate(-26deg);
     left: 6px;
     top: 6px;
 }
@@ -467,6 +472,7 @@ strong.right{
     height: 2px;
     width: 10px;
     -webkit-transform: rotate(-31deg);
+    -moz-transform: rotate(-31deg);
     border-radius: 0 0 5px 0;
     z-index: -1;
 }
@@ -479,6 +485,7 @@ strong.right{
     height: 2px;
     width: 6px;
     -webkit-transform: rotate(78deg);
+    -moz-transform: rotate(78deg);
     border-radius: 0 5px 0 0;
 }
 .cablecar-symbol .wire:after{
@@ -490,6 +497,7 @@ strong.right{
     height: 2px;
     width: 7px;
     -webkit-transform: rotate(-12deg);
+    -moz-transform: rotate(-12deg);
     border-radius: 11px 11px 0 0;
 }
 
@@ -549,6 +557,7 @@ strong.right{
     left: 2px;
     z-index: 3;
     -webkit-transform: rotate(-249deg);
+    -moz-transform: rotate(-249deg);
     border-radius: 2px;
 }
 .disabled-symbol .arms{
@@ -574,6 +583,7 @@ strong.right{
     z-index: 3;
     border-radius: 2px 2px 0 0;
     -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
 }
 .disabled-symbol .back:before{
     content: '';
@@ -634,6 +644,7 @@ strong.right{
     background: #fff;
     position: absolute;
     -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
 }
 .boat-symbol li.hull:after{
     top: -4px;
@@ -645,6 +656,7 @@ strong.right{
     background: #fff;
     position: absolute;
     -webkit-transform: rotate(-22deg);
+    -moz-transform: rotate(-22deg);
 }
 .boat-symbol li.cabin{
     top: 4px;
@@ -835,6 +847,7 @@ strong.right{
     background: transparent;
     border: 1px solid #1c3f95;
     -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
 }
 .tram-symbol .wheel1,
 .tram-symbol .wheel2,
@@ -910,6 +923,7 @@ strong.right{
     left: -2px;
     z-index: -1;
     -webkit-transform: rotate(-19deg);
+    -moz-transform: rotate(-19deg);
 }
 .plane-symbol .wing2{
     border-right: 15px solid transparent;
@@ -920,6 +934,7 @@ strong.right{
     left: 11px;
     z-index: -1;
     -webkit-transform: rotate(19deg);
+    -moz-transform: rotate(19deg);
 }
 .plane-symbol .wing1:after{
     content: '';

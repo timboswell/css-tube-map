@@ -150,6 +150,7 @@
 }
 #cir028:after{
 	background: -webkit-linear-gradient(top, #ffffff 23%,#1c3f95 13%,#1c3f95 48%,#ffffff 42%);
+	background: -moz-linear-gradient(top, #ffffff 23%,#1c3f95 13%,#1c3f95 48%,#ffffff 42%);
 }
 #cir029{
 	top: 1686px;
