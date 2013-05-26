@@ -143,6 +143,7 @@
 	top: 1176px;
 	left: 1395px;
 	height: 491px;
+	z-index: 9 !important;
 }
 #cir028{
 	top: 1665px;

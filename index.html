@@ -3,20 +3,37 @@
 <head>
   <meta charset="utf-8">
   <title>CSS Tube Map</title>
+  <link rel="shortcut icon" href="favicon.ico" />
   <meta name="description" content="CSS Tube Map by John Galantini">
   <meta name="author" content="John Galantini">
   <link rel="stylesheet" href="css/styles.css?v=1.0">
+	<meta property="og:title" content="CSS Tube Map by John Galantini" />
+	<meta property="og:description" content="This is a CSS replica of the London Underground map as of May 2013. It has been achieved using HTML5 and CSS3 methods."/>
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://csstubemap.co.uk" />
+	<meta property="og:image" content="#" />
+	<meta property="og:site_name" content="CSS Tube Map by John Galantini" />
+	<meta property="fb:admins" content="20900790" />
+
+	<meta itemprop="name" content="CSS Tube Map by John Galantini">
+	<meta itemprop="description" content="This is a CSS replica of the London Underground map as of May 2013. It has been achieved using HTML5 and CSS3 methods.">
+	<meta itemprop="image" content="img/screenCSStubemap.jpg">
 </head>
 <body>
 
 <header>
-	<h1><a href="#">CSS Tube Map <small>by John Galantni</small></a></h1>
-	<nav>
-		<ul>
-			<li><a href="#" target="_blank">about</a></li>
-			<li><a href="http://www.johngalantini.com" target="_blank">johngalantini.com</a></li>
-		</ul>
-	</nav>
+	<div class="wrapper">
+		<h1><a href="index.html">CSS Tube Map <small>by John Galantini</small></a></h1>
+		<a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out this CSS Tube Map! via @johngalantini85" data-related="johngalantini85" data-hashtags="csstubemap">Tweet</a>
+		<nav>
+			<ul>
+				<li class="info"><a href="info.html">about</a></li>
+				<li class="twitter"><a href="http://www.twitter.com/johngalantini85" target="_blank">@johngalantini85</a></li>
+				<li class="beck"><a href="http://en.wikipedia.org/wiki/Harry_Beck" target="_blank">Wikipedia: Harry Beck</a></li>
+				<li class="john"><a href="http://www.johngalantini.com" target="_blank">johngalantini.com</a></li>
+			</ul>
+		</nav>
+	</div>
 </header>
 
 <section id="map-container">
@@ -428,7 +445,7 @@
 		<li id="bak008" class="roundel disabled"><strong class="left wide boxed">Willesden Junction</strong></li>
 		<li id="bak009" class="station"></li>
 		<li id="bak010" class="roundel connection"><strong class="right wide">Queen's Park</strong></li>
-		<li id="bak011" class="station rot315"><strong class="left wide">Kilbrun Park</strong></li>
+		<li id="bak011" class="station rot315"><strong class="left wide">Kilburn Park</strong></li>
 		<li id="bak012" class="station rot315"><strong class="left wide">Madia Vale</strong></li>
 		<li id="bak013" class="station rot315"><strong class="left wide">Warwick Avenue</strong></li>
 		<li id="bak014" class="roundel connection"><strong class="above rail"><br/>Paddington</strong></li>
@@ -675,7 +692,7 @@
 		<li id="ove059" class="station vertical"><strong class="below">Brondesbury</strong></li>
 		<li id="ove060" class="station vertical"><strong class="above">Brondesbury<br/>Park</strong></li>
 		<li id="ove061" class="station vertical"><strong class="above">Kensal<br/>Rise</strong></li>
-		<li id="ove062" class="roundel disabled"><strong class="above">Gospel<br/>Oak</strong></li>
+		<li id="ove062" class="roundel disabled linked"><strong class="above">Gospel<br/>Oak</strong></li>
 		<li id="ove063" class="roundel disabled"><strong class="below wide right"><br/>Upper Holloway</strong></li>
 		<li id="ove064" class="station rot45"><strong class="left above"><br/>Crouch Hill</strong></li>
 		<li id="ove065" class="roundel disabled"><strong class="above wide">Harringay<br/>Green Lanes</strong></li>
@@ -750,6 +767,11 @@
 		<li id="ove135" class="spacer"></li>
 		<li id="ove136" class="spacer rot45"></li>
 		<li id="ove137" class="spacer"></li>
+		<li id="ove138" class="station"></li>
+		<li id="ove139" class="station"></li>
+		<li id="ove140" class="station"></li>
+		<li id="ove141" class="station"></li>
+		<li id="ove142" class="station"></li>
 	</ul>
 
 	<ul id="dlr" class="line">
@@ -925,15 +947,14 @@
 
 </section>
 
-<!-- <section id="overlay">
-	<ul id="tube-logo">
-		<li class="ring"></li>
-		<li class="strip">CSS Tube Map</li>
-	</ul>
-</section> -->
+<img src="img/screenCSStubemap.jpg" id="screenshot" alt="CSS Tube Map screenshot"/>
 
 <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="js/symbols.js"></script>
+<script type="text/javascript" src="js/scroll-position.js"></script>
+<script>
+	!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+</script>
 
 </body>
 </html>

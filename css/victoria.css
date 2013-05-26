@@ -132,6 +132,7 @@
 	top: 776px;
 	left: 2631px;
 	height: 175px;
+	z-index: 6 !important;
 }
 #vic019{
 	top: 954px;
@@ -151,6 +152,7 @@
 	top: 1039px;
 	left: 2194px;
 	width: 349px;
+	z-index: -2 !important;
 }
 #vic023{
 	top: 1039px;

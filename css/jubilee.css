@@ -159,6 +159,7 @@
 	top: 806px;
 	left: 1199px;
 	width: 620px;
+	z-index: 0 !important;
 }
 #jub027{
 	top: 1027px;
